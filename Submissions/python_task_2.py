@@ -1,5 +1,7 @@
 import pandas as pd
+import datetime from time
 
+df = pd.read_csv('datasets/dataset-3.csv')
 
 def calculate_distance_matrix(df)->pd.DataFrame():
     """
